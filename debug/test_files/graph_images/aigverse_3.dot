@@ -1,0 +1,21 @@
+digraph AIG {
+  rankdir=LR;
+  node [shape=circle];
+  x1 [label="x1", shape=box, style=filled, fillcolor=lightblue];
+  x2 [label="x2", shape=box, style=filled, fillcolor=lightblue];
+  x3 [label="x3", shape=box, style=filled, fillcolor=lightblue];
+  x7 [label="x7"];
+  x3 -> x7 [style=dashed];
+  x6 -> x7 [style=solid];
+  x5 [label="x5"];
+  x1 -> x5 [style=solid];
+  x2 -> x5 [style=dashed];
+  x4 [label="x4"];
+  x1 -> x4 [style=dashed];
+  x2 -> x4 [style=solid];
+  x6 [label="x6"];
+  x4 -> x6 [style=dashed];
+  x5 -> x6 [style=dashed];
+  f0 [label="f0 = x7", shape=diamond, style=filled, fillcolor=lightgreen];
+  x7 -> f0 [style=solid];
+}
