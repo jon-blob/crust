@@ -26,7 +26,7 @@ impl<'a> CutEnumerator<'a> {
         }
     }
 
-    /// Calculates all minimal cuts for a single nodes
+    /// Calculates all minimal cuts for a single node
     /// cut_size: maximum number of leaves for a cut.
     /// inputs: list of all input signals
     /// target_node: calculate all k-feasible cuts for this node
