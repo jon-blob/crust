@@ -53,7 +53,7 @@ Example command:
   Specifies the maximum cut size (`k`).
 
 - `-o <path_to_store_cuts>`
-  Writes all computed cuts for a single nodes to a text file.
+  Writes all computed cuts for a single node to a text file.
 
 ⚠️ Always start the command with `./target/release/crust` to run the program when you are in the base directory of this package.
 
