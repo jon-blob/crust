@@ -64,7 +64,11 @@ crust/
 ├── aig_structure/       # Code for AIG representation and management
 ├── algorithms/          # Implemented algorithms (currently: cut enumeration)
 ├── debug/               # Example AIGER files (created with aigverse) & images for debugging/testing
+  ├── aigs               # Example AIGER files
+  ├── crust              # Example crust output files.
+  └── mockturtle_images  # Visualization of each AIG with the mockturtle library. 
 ├── input_output/        # AIGER file import & PNG export
 ├── target/              # Auto-generated Rust build files
 └── main.rs              # Entry point with command-line interface
 ```
+Additional information about the debug directory: Each filename corresponds to the name of the AIGER file that was used.
