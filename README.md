@@ -8,6 +8,9 @@ It can read AIGs from **AIGER files**, generate **PNG visualizations**, and enum
 To use `crust`, you need to have **Rust** installed:  
 👉 [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
 
+If you want to visualize the graph you also need to install `graphviz`:  
+👉 [https://graphviz.org/download/](https://graphviz.org/download/)
+
 ## Installation & Build
 
 If you make any changes to the code or want to build `crust` yourself, run the following command from within the `crust` directory:
