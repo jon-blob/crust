@@ -13,7 +13,7 @@ If you want to visualize the graph you also need to install `graphviz`:
 
 ## Installation & Build
 
-If you make any changes to the code or want to build `crust` yourself, run the following command from within the `crust` directory:
+If you make any changes to the code or want to build `crust` yourself, run the following command from within the `crust` base directory:
 
 ```bash
 cargo build --release

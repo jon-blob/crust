@@ -1,8 +1,0 @@
-digraph AIG {
-  rankdir=LR;
-  node [shape=circle];
-  x1 [label="x1", shape=box, style=filled, fillcolor=lightblue];
-  x2 [label="x2", shape=box, style=filled, fillcolor=lightblue];
-  f0 [label="f0 = x0", shape=diamond, style=filled, fillcolor=lightgreen];
-  x0 -> f0 [style=solid];
-}
